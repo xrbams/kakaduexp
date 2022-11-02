@@ -2,7 +2,7 @@ import React from "react";
 import OffRoad from "./OffRoad";
 import Sedan from "./Sedan";
 import Sports from "./Sports";
-import Suv from "./suv";
+import Suv from "./SUV";
 import Home from "./home";
 import { Switch, Route } from 'react-router-dom'
 

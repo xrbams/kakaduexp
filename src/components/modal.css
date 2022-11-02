@@ -1,0 +1,46 @@
+.mod button {
+    background-color: black;
+    color: aqua;
+    width: 5rem;
+    height: 3rem;
+    border-radius: 25px;
+}
+
+
+.carr {
+    background-color: rgb(175, 130, 182);
+    border-radius: 10px;
+    text-align: center;
+    padding-top: none;
+}
+
+.carr h1{
+    margin-top: 2%;
+}
+
+.car button{
+    font-size: 25px;
+    background-color: black;
+    color: aquamarine;
+    border-radius: 10px;
+}
+
+.mob {
+    text-align: center;
+}
+
+.grd {
+    margin-left: 5rem;
+}
+
+.lab{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.List{
+ justify-content: center;
+ text-align: center;
+ font-size: 30px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

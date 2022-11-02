@@ -1,12 +1,16 @@
 .Header {
-  width: 75%;
+  width: 80%;
   height: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #efd1dc;
+  background-color: #3f3136;
   padding: 0 10%;
   color: black;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 10px;
+  opacity: 95%;
 }
 
 .Header h2 {

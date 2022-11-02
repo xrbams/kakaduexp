@@ -1,6 +1,7 @@
 import React from 'react'
 import AddCars from '../components/addCars';
 import FormLists from '../components/formLists';
+import { Grid } from '@material-ui/core'
 
 const Suv = () => {
   const addSUV = async (suv) => {
@@ -22,12 +23,18 @@ const Suv = () => {
   const typer = "suv";
 
   return (
-    <>
-    <section>
-        <AddCars onAddCar={addSUV} />
-      </section>
-      <FormLists onType={typer}/>
-    </>
+
+<Grid container spacing={{ xs: 1, sm: 2, md: 3 }} >
+
+<Grid item xs={6} md={8} style={{backgroundColor: '#EDEAE5'}}>
+  <FormLists onType={typer} />
+</Grid>
+
+<Grid item xs={6} md={4} style={{backgroundColor: '#EDEAE5'}}>
+  <AddCars onAddCar={addSUV} />
+</Grid>
+
+</Grid>
   )
 }
 
